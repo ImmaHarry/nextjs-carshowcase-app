@@ -29,3 +29,11 @@ export interface carProps {
     model: string;
     transmission: string;
 }
+
+export interface FilterProps {
+    manufacturer: string;
+    model: string;
+    fuel: string;
+    year: number; 
+    limit: number;
+}
